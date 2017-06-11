@@ -1,0 +1,27 @@
+{
+  "name": "monolith-hello-world",
+  "version": "1.0.0",
+  "description": "Sample project describing the use of monolith-backend and monolith-frontend",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js client/**/*.js",
+    "prestart": "node build-frontend",
+    "start": "node index.js",
+    "postinstall": "cd frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Or-bit",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-dir": "^0.3.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "dependencies": {
+    "cross-spawn": "^5.1.0",
+    "monolith-backend": "^0.7.1"
+  }
+}
