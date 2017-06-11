@@ -4,7 +4,7 @@ This repo shows how to build a simple bubble with monolith-frontend and monolith
 
 ## Installation
 
-1. Clone this repository: `git clone <url>`
+1. Clone this repository: `git clone https://github.com/or-bit/monolith-hello-world.git`
 2. Enter in it: `cd monolith-hello-world`
 3. Install dependencies: `npm i`
 4. Running example: `npm start`
